@@ -1,0 +1,105 @@
+.conteiner1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-block-end: 30px;
+    flex-wrap: wrap;
+}
+.conteiner2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-block-end: 30px;
+}
+.conteiner3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-block-end: 30px;
+    font-size: 24px;
+}
+.conteiner3 button{
+    display:  flex;
+    color: wheat;
+    background-color: rgb(80, 26, 69);
+    border-radius: 10px;
+    width: min-content;
+    height: min-content;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://wallpapers.com/images/hd/mystical-purple-nebula-space-98hrud37nux8er2k.jpg");
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    display: flex;
+    justify-content: center;   
+    color: rgb(255, 255, 255); 
+    font-size: 32px;
+    font-weight: bolder;
+}
+.conteiner2 img{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgb(42, 30, 79);
+}
+.conteiner1 img{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgb(42, 30, 79);
+}
+.osntext{
+    font-size: 18px;
+}
+:root{
+    --scrollbar-width: 12px;
+    --scrollbar-track-color: #333;
+    --scrollbar-thumb-color: #666;
+    --scrollbar-thumb-hover-color: #888;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--scrollbar-thumb-color);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    background: var(--scrollbar-track-color);
+}
+::-webkit-scrollbar{
+    width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--scrollbar-thumb-hover-color);
+}
+::-webkit-progress-bar {
+    background: #333; 
+}
+
+::-webkit-progress-value {
+    background: #666; 
+}
+progress {
+    background: #333; 
+    color: #666; 
+}
+
+progress::-moz-progress-bar {
+    background: #666; 
+}
+::-webkit-meter-bar{
+    background: #666;
+}
